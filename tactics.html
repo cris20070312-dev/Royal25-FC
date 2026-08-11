@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Tactical Board</title>
+<meta charset="UTF-8"><title>Tactical Board</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
-<h1>ROYAL 25 FC</h1>
-</header>
-
-<main id="content">
-<h2>⚽ Tactical Board 战术中心</h2>
-
+<header><div class="brand">ROYAL 25 FC</div></header>
+<section class="hero">
+<h1>⚽ Tactical Board</h1>
 <input id="title" placeholder="战术标题">
-<textarea id="text" placeholder="写下战术想法"></textarea>
-<button onclick="post()">发布讨论</button>
-
+<textarea id="content" placeholder="输入战术讨论"></textarea>
+<button onclick="post()">发布</button>
 <div id="posts"></div>
-
-</main>
-
+</section>
 <script src="script.js"></script>
 </body>
 </html>
