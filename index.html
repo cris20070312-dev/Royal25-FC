@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal 25 FC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<img src="logo.png" class="logo">
+<h1>ROYAL 25 FC</h1>
+<nav>
+<a href="#">首页</a>
+<a href="#tactics">战术中心</a>
+<a href="#login">登录</a>
+</nav>
+</header>
+
+<section class="hero">
+<img src="logo.png">
+<h2>皇家25足球俱乐部</h2>
+<p>Beyond Football, Build Our Legacy</p>
+</section>
+
+<section id="login">
+<h2>成员登录</h2>
+<input id="username" placeholder="用户名">
+<input id="password" type="password" placeholder="密码">
+<input id="code" placeholder="邀请码">
+<button onclick="register()">注册</button>
+<button onclick="login()">登录</button>
+<p id="message"></p>
+</section>
+
+<section id="tactics">
+<h2>⚽ Tactical Board 战术讨论区</h2>
+<input id="postTitle" placeholder="战术标题">
+<textarea id="postContent" placeholder="写下你的战术想法"></textarea>
+<button onclick="post()">发布讨论</button>
+<div id="posts"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
