@@ -1,0 +1,48 @@
+body{
+background:#071426;
+color:white;
+font-family:Arial;
+text-align:center;
+margin:0;
+}
+header{
+background:#101d36;
+padding:20px;
+}
+header img{
+width:60px;
+}
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+}
+main{
+padding:60px;
+}
+.logo{
+width:220px;
+}
+input,textarea{
+display:block;
+margin:15px auto;
+width:320px;
+padding:12px;
+border-radius:8px;
+}
+textarea{
+height:120px;
+}
+button{
+background:#d90429;
+color:white;
+border:0;
+padding:12px 25px;
+border-radius:8px;
+}
+.post{
+background:#14213d;
+margin:15px;
+padding:15px;
+border-radius:10px;
+}
